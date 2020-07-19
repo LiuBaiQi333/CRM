@@ -94,12 +94,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</dd>
 		</dl>
 			<dl id="menu-product">
-				<dt><i class="Hui-iconfont">&#xe620;</i> 产品管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+				<dt><i class="Hui-iconfont">&#xe620;</i> 采购管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 				<dd>
 					<ul>
-						<li><a data-href="product-brand.html" data-title="品牌管理" href="javascript:void(0)">品牌管理</a></li>
-						<li><a data-href="product-category.html" data-title="分类管理" href="javascript:void(0)">分类管理</a></li>
-						<li><a data-href="product-list.html" data-title="产品管理" href="javascript:void(0)">产品管理</a></li>
+						<li><a data-href="cgctrl/selectOrder.do" data-title="采购单管理" href="javascript:void(0)">采购单管理</a></li>
+						<li><a data-href="cgctrl/selectOrderDetail.do" data-title="采购单详情" href="javascript:void(0)">采购单详情</a></li>
+						<li><a data-href="cgctrl/selectPurchase.do" data-title="需补货产品" href="javascript:void(0)">需补货产品</a></li>
+						<li><a data-href="cgctrl/selectSupplier.do" data-title="供应商详情表" href="javascript:void(0)">供应商详情表</a></li>
 				</ul>
 			</dd>
 		</dl>
